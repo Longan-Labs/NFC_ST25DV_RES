@@ -180,13 +180,6 @@ After uploading the provided program to your Arduino, your Grove - NFC (ST25DV64
 To test its functionality, you'll need an NFC-enabled smartphone, either Android or Apple. For the purpose of this demonstration, an iPhone 14 Pro Max was used. The NFC antenna for this device is located adjacent to the camera. However, if you are unsure about the location of the NFC antenna on your smartphone, it would be beneficial to look it up online.
 
 Place the phone's NFC antenna close to the NFC antenna of the Grove - NFC (ST25DV64). Your smartphone should display a prompt requesting to open a webpage at st.com. This response indicates that your Grove - NFC (ST25DV64) is functioning correctly as an NFC Tag and demonstrates the demo's functionality.
-
-After uploading the provided program to your Arduino, your Grove - NFC (ST25DV64) becomes a fully functioning NFC Tag, which can operate independently. You can remove it from your Arduino board; it doesn't require any additional setup to work.
-
-To test its functionality, you'll need an NFC-enabled smartphone, either Android or Apple. For the purpose of this demonstration, an iPhone 14 Pro Max was used. The NFC antenna for this device is located adjacent to the camera. However, if you are unsure about the location of the NFC antenna on your smartphone, it would be beneficial to look it up online.
-
-Place the phone's NFC antenna close to the NFC antenna of the Grove - NFC (ST25DV64). Your smartphone should display a prompt requesting to open a webpage at st.com. This response indicates that your Grove - NFC (ST25DV64) is functioning correctly as an NFC Tag and demonstrates the demo's functionality.)
-
 ![](https://raw.githubusercontent.com/Longan-Labs/NFC_ST25DV_RES/main/images/stcom.jpg)
 
 ## Schematic Online Viewer
