@@ -14,9 +14,19 @@ last_update:
 <!-- ![](https://files.seeedstudio.com/wiki/Grove-VOC_and_eCO2_Gas_Sensor-SGP30/img/IMG_0012a.jpg) -->
   <p style={{textAlign: 'center'}}><img src="https://raw.githubusercontent.com/Longan-Labs/NFC_ST25DV_RES/c7b51f84ceaca85c9e24df663dbf5c0c2bf3524d/images/2-101021093---Grove---NFC(ST25DV64KC)-font.jpg" alt="pir" width={600} height="auto" /></p>
 
-The Grove - NFC (ST25DV64) is an open-source Near Field Communication (NFC) tag designed for the maker community. It is built around the ST25DV64K chip, which offers a wide range of NFC and RFID capabilities. The board follows the Grove form factor, characterized by its 4-pin HY2.0 connector, also known as the Grove connector. This standardized connector simplifies the integration of various sensors, actuators, and communication modules, allowing for rapid prototyping and modular project design.
+Grove - NFC (ST25DV64) is an innovative and versatile NFC/RFID tag board based on the advanced ST25DV64K chip from STMicroelectronics. This dynamic chip supports ISO/IEC 15693 and NFC Forum Type 5 tag standards, making it compatible with a wide array of NFC-enabled devices.
 
-The Grove - NFC (ST25DV64) board is suitable for a wide range of applications, such as contactless smart cards, access control systems, electronic payments, and IoT device configuration. By providing open-source hardware and software, the board allows users to customize and adapt the NFC tag according to their specific needs. This, combined with the easy-to-use Grove connector, makes the Grove - NFC (ST25DV64) an ideal choice for both beginners and experienced makers looking to add NFC capabilities to their projects.
+Designed for makers, DIY enthusiasts, and anyone interested in experimenting with NFC technology, the Grove - NFC (ST25DV64) offers a simple, cost-effective solution for adding NFC functionality to your projects. With its open-source nature, you can not only use this board as is but also tweak it to better fit your specific needs, whether you're building a smart home system, a secure access control device, a contactless payment solution, or an inventory tracking system.
+
+The Grove - NFC (ST25DV64) is more than just an NFC tag. It's also a powerful tool that you can use to learn about NFC technology and its applications. With its rich features, you can explore various aspects of NFC, from data transfer and energy harvesting to data protection and general-purpose output.
+
+This board is designed with convenience in mind. It features the standard Grove connector (HY2.0 - 4Pin), making it easily compatible with other Grove modules. Additionally, it works with both 3.3V and 5V systems, making it a flexible solution for your NFC needs.
+
+Despite its small size, the Grove - NFC (ST25DV64) packs a punch when it comes to storage. It offers 64 Kbits of EEPROM, organized in 2048 blocks of 32 bits each, providing ample space for your data.
+
+Note: Please remember that the Grove - NFC (ST25DV64) does not come with an NFC antenna. You will need to purchase a separate 13.56MHz NFC antenna to use with this product. You can also purchase this antenna from Seeedstudio.
+
+Whether you're new to NFC or an experienced developer looking for an easy-to-use NFC solution, the Grove - NFC (ST25DV64) is an excellent choice. Its open-source software and hardware, combined with its ease of use and versatility, make it an invaluable tool for any NFC project.
 
 <p style={{textAlign: 'center'}}><a href="https://www.seeedstudio.com/-Grove-VOC-and-eCO2-Gas-Sensor-(SGP30)-p-3071.html" target="_blank"><img src="https://files.seeedstudio.com/wiki/Seeed-WiKi/docs/images/300px-Get_One_Now_Banner-ragular.png" /></a></p>
 
@@ -26,11 +36,13 @@ The Grove - NFC (ST25DV64) board is suitable for a wide range of applications, s
 
 ## Features
 
-- Open-source hardware and software
-- Easy-to-use Grove form factor with 4-pin HY2.0 connector
-- Fast and reliable NFC communication
-- Supports a wide range of NFC and RFID applications
-- I2C interface for easy integration with microcontrollers
+- Based on the ST25DV64K chip, supporting ISO/IEC 15693 and NFC Forum Type 5 tag standards
+- 64 Kbits of EEPROM, organized in 2048 blocks of 32 bits each
+- Energy harvesting and GPO (General Purpose Output)
+- Fast transfer mode and multiple levels of data protection
+- Compatible with both 3.3V and 5V systems
+- Uses the standard Grove connector (HY2.0 - 4Pin) for easy integration with other Grove modules
+- Open-source software and hardware
 
 ## Specification
 
@@ -41,14 +53,19 @@ The Grove - NFC (ST25DV64) board is suitable for a wide range of applications, s
 - Grove connector: 4-pin HY2.0
 - Operating voltage: 3.3/5V
 
+## In the Box
+
+![](https://raw.githubusercontent.com/Longan-Labs/NFC_ST25DV_RES/main/images/5-101021093---Grove---NFC(ST25DV64KC)-45fontall.jpg)
+- 1xGrove - NFC(ST25DV64) Board
+- 2xGrove Cable(20cm)
+
 ## Applications
 
-- Contactless smart cards
-- Access control systems
-- Electronic payment
-- Bluetooth or Wi-Fi pairing
-- Smart home automation
-- IoT device configuration and management
+- **Access Control:** Use the Grove - NFC (ST25DV64) as a key card for access control systems.
+- **Smart Home Automation:** Store configuration data on the tag to control smart home devices or trigger specific actions.
+- **Contactless Payments:** Integrate the tag into a payment system for contactless transactions.
+- **Device Pairing:** Simplify the pairing process between devices by storing connection information on the NFC tag.
+- **Inventory Tracking:** Attach the NFC tag to products to store product information and simplify inventory management.
 
 ## Hardware Overview
 
